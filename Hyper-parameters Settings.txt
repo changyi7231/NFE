@@ -1,0 +1,26 @@
+WN18RR dataset:
+NFE-1: {'mode': 'train', 'device': 'cuda:0', 'dataset': 'WN18RR', 'model_name': 'NFE-1', 'save_dir': '', 'valid_interval': 1, 'dimension': 1024, 'epochs': 50, 'gamma': 1.0, 'batch_size': 128, 'lr': 0.005, 'decay_rate': 0.9, 'seed': 0}
+NFE-2: {'mode': 'train', 'device': 'cuda:0', 'dataset': 'WN18RR', 'model_name': 'NFE-2', 'save_dir': '', 'valid_interval': 1, 'dimension': 1024, 'epochs': 50, 'gamma': 0, 'batch_size': 128, 'lr': 0.003, 'decay_rate': 0.93, 'seed': 0}
+NFE-3: {'mode': 'train', 'device': 'cuda:0', 'dataset': 'WN18RR', 'model_name': 'NFE-3', 'save_dir': '', 'valid_interval': 1, 'dimension': 1024, 'epochs': 50, 'gamma': 14.0, 'batch_size': 512, 'lr': 0.01, 'decay_rate': 0.93, 'seed': 0}
+NFE-w/o-uncertainty: {'mode': 'train', 'device': 'cuda:0', 'dataset': 'WN18RR', 'model_name': 'NFE-w/o-uncertainty', 'save_dir': '', 'valid_interval': 1, 'dimension': 1024, 'epochs': 50, 'gamma': 0, 'batch_size': 128, 'lr': 0.005, 'decay_rate': 0.93, 'seed': 0}
+NFE-1-\mu: {'mode': 'train', 'device': 'cuda:0', 'dataset': 'WN18RR', 'model_name': 'TransE', 'save_dir': '', 'valid_interval': 1, 'dimension': 512, 'epochs': 50, 'gamma': 2, 'batch_size': 256, 'lr': 0.01, 'decay_rate': 0.9, 'seed': 0}
+NFE-1-\sigma: {'mode': 'train', 'device': 'cuda:0', 'dataset': 'WN18RR', 'model_name': 'NFE-sigma', 'save_dir': '', 'valid_interval': 1, 'dimension': 1024, 'epochs': 50, 'gamma': 4, 'batch_size': 128, 'lr': 0.01, 'decay_rate': 0.93, 'seed': 0}
+DistMult: {'mode': 'train', 'device': 'cuda:0', 'dataset': 'WN18RR', 'model_name': 'DistMult', 'save_dir': '', 'valid_interval': 1, 'dimension': 512, 'epochs': 50, 'gamma': 0, 'batch_size': 128, 'lr': 0.003, 'decay_rate': 1.0, 'seed': 0}
+
+FB15k-237 dataset:
+NFE-1: {'mode': 'train', 'device': 'cuda:0', 'dataset': 'FB15k-237', 'model_name': 'NFE-1', 'save_dir': '', 'valid_interval': 1, 'dimension': 1024, 'epochs': 50, 'gamma': 2.0, 'batch_size': 1024, 'lr': 0.001, 'decay_rate': 0.93, 'seed': 0}
+NFE-2: {'mode': 'train', 'device': 'cuda:0', 'dataset': 'FB15k-237', 'model_name': 'NFE-2', 'save_dir': '', 'valid_interval': 1, 'dimension': 1024, 'epochs': 50, 'gamma': 1, 'batch_size': 256, 'lr': 0.001, 'decay_rate': 0.9, 'seed': 0}
+NFE-3: {'mode': 'train', 'device': 'cuda:0', 'dataset': 'FB15k-237', 'model_name': 'NFE-3', 'save_dir': '', 'valid_interval': 1, 'dimension': 1024, 'epochs': 50, 'gamma': 2.0, 'batch_size': 256, 'lr': 0.001, 'decay_rate': 0.9, 'seed': 0}
+NFE-w/o-uncertainty: {'mode': 'train', 'device': 'cuda:0', 'dataset': 'FB15k-237', 'model_name': 'NFE-w/o-uncertainty', 'save_dir': '', 'valid_interval': 1, 'dimension': 1024, 'epochs': 50, 'gamma': 0, 'batch_size': 128, 'lr': 0.0005, 'decay_rate': 0.95, 'seed': 0}
+NFE-1-\mu: {'mode': 'train', 'device': 'cuda:0', 'dataset': 'FB15k-237', 'model_name': 'TransE', 'save_dir': '', 'valid_interval': 1, 'dimension': 512, 'epochs': 50, 'gamma': 3, 'batch_size': 1024, 'lr': 0.003, 'decay_rate': 0.9, 'seed': 0}
+NFE-1-\sigma: {'mode': 'train', 'device': 'cuda:0', 'dataset': 'FB15k-237', 'model_name': 'NFE-sigma', 'save_dir': '', 'valid_interval': 1, 'dimension': 1024, 'epochs': 50, 'gamma': 0, 'batch_size': 128, 'lr': 0.001, 'decay_rate': 0.93, 'seed': 0}
+DistMult: {'mode': 'train', 'device': 'cuda:0', 'dataset': 'FB15k-237', 'model_name': 'DistMult', 'save_dir': '', 'valid_interval': 1, 'dimension': 512, 'epochs': 50, 'gamma': 0, 'batch_size': 128, 'lr': 0.01, 'decay_rate': 0.9, 'seed': 0}
+
+YAGO3-10 dataset:
+NFE-1: {'mode': 'train', 'device': 'cuda:0', 'dataset': 'YAGO3-10', 'model_name': 'NFE-1', 'save_dir': '', 'valid_interval': 1, 'dimension': 1024, 'epochs': 150, 'gamma': 8.0, 'batch_size': 1024, 'lr': 0.001, 'decay_rate': 0.95, 'seed': 0}
+NFE-2: {'mode': 'train', 'device': 'cuda:0', 'dataset': 'YAGO3-10', 'model_name': 'NFE-2', 'save_dir': '', 'valid_interval': 1, 'dimension': 1024, 'epochs': 100, 'gamma': 7, 'batch_size': 1024, 'lr': 0.001, 'decay_rate': 0.95, 'seed': 0}
+NFE-3: {'mode': 'train', 'device': 'cuda:0', 'dataset': 'YAGO3-10', 'model_name': 'NFE-3', 'save_dir': '', 'valid_interval': 1, 'dimension': 1024, 'epochs': 100, 'gamma': 11, 'batch_size': 1024, 'lr': 0.001, 'decay_rate': 0.93, 'seed': 0}
+NFE-w/o-uncertainty: {'mode': 'train', 'device': 'cuda:0', 'dataset': 'YAGO3-10', 'model_name': 'NFE-w/o-uncertainty', 'save_dir': '', 'valid_interval': 1, 'dimension': 1024, 'epochs': 50, 'gamma': 8, 'batch_size': 1024, 'lr': 0.003, 'decay_rate': 0.9, 'seed': 0}
+NFE-1-\mu:{'mode': 'train', 'device': 'cuda:0', 'dataset': 'YAGO3-10', 'model_name': 'TransE', 'save_dir': '', 'valid_interval': 1, 'dimension': 512, 'epochs': 50, 'gamma': 9, 'batch_size': 1024, 'lr': 0.005, 'decay_rate': 0.9, 'seed': 0}
+NFE-1-\sigma: {'mode': 'train', 'device': 'cuda:0', 'dataset': 'YAGO3-10', 'model_name': 'NFE-sigma', 'save_dir': '', 'valid_interval': 1, 'dimension': 1024, 'epochs': 50, 'gamma': 19, 'batch_size': 1024, 'lr': 0.001, 'decay_rate': 0.95, 'seed': 0}
+DistMult: {'mode': 'train', 'device': 'cuda:0', 'dataset': 'YAGO3-10', 'model_name': 'DistMult', 'save_dir': '', 'valid_interval': 1, 'dimension': 512, 'epochs': 50, 'gamma': 0, 'batch_size': 1024, 'lr': 0.001, 'decay_rate': 0.95, 'seed': 0}
